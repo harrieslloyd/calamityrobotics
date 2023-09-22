@@ -9,6 +9,7 @@ h1 {
     font-size: 6ch;
     color: white;
     margin: 5px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 h2 {
     font-family: 'Poppins', sans-serif;
@@ -16,6 +17,7 @@ h2 {
     color: white;
     font-weight: 600;
     margin: 5px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
 section {
@@ -35,23 +37,24 @@ section {
 }
 
 #hometitle {
-    background-image: url(photo4.jpeg);
+    background-image: url(images/homeimage.jpeg);
 }
 
 #robottitle {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFepCBxLiZNFcBFozeg5ZWrdy_69zIOEJis4uQ4MboxOBw5t5LtySpytXKDiHpULJXDwo:https://media.cnn.com/api/v1/images/stellar/prod/230822164529-05-apptronik-apollo-robot.jpg%3Fc%3Doriginal&usqp=CAU);
+    background-image: url(images/robot.JPG);
+    height:85vh
 }
 
 #sponsortitle {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc4UB0Kxe62MCEb0BBFZBbTHGaRPF3Z-ZQS7AXyeoG7qLu4OKOo0OHPGENcphX9hmFROc:https://cdn2.hubspot.net/hubfs/53/Untitled%2520design-14.png&usqp=CAU);
+    background-image: url(images/sponsorimage.JPG);
 }
 
 #contacttitle {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ3sntMpB_0aK74cEAhBUtkv0sObB6ImCtdX7V-8cae6NXbnW0qKQyAQpTX_HBUeWgQe0:https://t3.ftcdn.net/jpg/00/00/61/08/360_F_610851_0CMfy8H5t3hVJ6l4jWKlvjWpdHEXKG.jpg&usqp=CAU);
+    background-image: url(images/contactimage.JPG);
 }
 
 .titlecenter {
-    background-color: #4287f5;
+    /*    background-color: #4287f5;*/
     border-radius: 10px;
     padding: 20px;
 }

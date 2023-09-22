@@ -96,6 +96,14 @@ header {
 
 }
 
+.active {
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+header div a {
+    padding:5px;
+}
 header div {
     height:40px;
     width: 40px;
